@@ -26,6 +26,7 @@ li
 }
 #bodyText
 {
+    padding-top: 15px;
     float: left;
     border: solid;
     width: 79%;
@@ -39,4 +40,13 @@ p
 a
 {
     color: black;
+}
+table
+{
+    border-spacing: 10px;
+}
+img
+{
+    width: 120px;
+    height: 120px;
 }
