@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Dynamic Image Gallery</title>
     <link rel="stylesheet" type="text/css" href="galleryStyles.css">
+    <script src="jquery.js"></script>
+    <script src="galleryScripts.js"></script>
 </head>
 
 <body>
@@ -27,39 +29,39 @@
     <div id = bodyText align="center">
         <table>
             <tr>
-                <td><img src="http://gazettereview.com/wp-content/uploads/2015/09/Fallout-41.jpg"></td>
-                <td><img src="http://cdn2.bigcommerce.com/server100/y7xbit5/product_images/uploaded_images/destiny-gh-website-banner.jpg?t=1409897361"></td>
-                <td><img src="http://blogs-images.forbes.com/insertcoin/files/2014/03/the-last-of-us3.jpg"></td>
+                <td><img id= "img1" src="http://gazettereview.com/wp-content/uploads/2015/09/Fallout-41.jpg"></td>
+                <td><img id= "img2" src="http://cdn2.bigcommerce.com/server100/y7xbit5/product_images/uploaded_images/destiny-gh-website-banner.jpg?t=1409897361"></td>
+                <td><img id= "img3" src="http://blogs-images.forbes.com/insertcoin/files/2014/03/the-last-of-us3.jpg"></td>
             </tr>
             <tr>
-                <td class = "description" valign="top">Description 1</td>
-                <td class="description" valign="top">Description 2</td>
-                <td class="description" valign="top">Description 3</td>
+                <td class="description" id = "text1" valign="top"><p>Description 1</p> <div align="right"><button>Change the Text</button></div></td>
+                <td class="description" id = "text2" valign="top"><p>Description 2</p><div align="right"><button>Change the Text</button></div></td>
+                <td class="description" id = "text3" valign="top"><p>Description 3</p><div align="right"><button>Change the Text</button></div></td>
             </tr>
             <tr>
-                <td><img src="http://i.ytimg.com/vi/CBZrJMD98Es/maxresdefault.jpg"></td>
-                <td><img src="http://cdn1-www.craveonline.com/assets/uploads/gallery/star-wars-battlefront-everything-we-know-so-far/bfbox.jpg"></td>
-                <td><img src="http://i.ytimg.com/vi/G203e1HhixY/maxresdefault.jpg"></td>
+                <td><img id= "img4" src="http://i.ytimg.com/vi/CBZrJMD98Es/maxresdefault.jpg"></td>
+                <td><img id= "img5" src="http://cdn1-www.craveonline.com/assets/uploads/gallery/star-wars-battlefront-everything-we-know-so-far/bfbox.jpg"></td>
+                <td><img id= "img6" src="http://i.ytimg.com/vi/G203e1HhixY/maxresdefault.jpg"></td>
             </tr>
             <tr>
-                <td class = "description" valign="top">Description 4</td>
-                <td class="description" valign="top">Description 5</td>
-                <td class="description" valign="top">Description 6</td>
+                <td class="description" id = "text4" valign="top"><p>Description 4</p><div align="right"><button>Change the Text</button></div></td>
+                <td class="description" id = "text5" valign="top"><p>Description 5</p><div align="right"><button>Change the Text</button></div></td>
+                <td class="description" id = "text6" valign="top"><p>Description 6</p><div align="right"><button>Change the Text</button></div></td>
             </tr>
             <tr>
-                <td><img src="https://psmedia.playstation.com/is/image/psmedia/minecraft-large-hero-03-ps4-ps3-psv-us-15aug14?$Icon$"></td>
-                <td><img src="https://atthebuzzerpodcast.files.wordpress.com/2013/03/bioshock_infinite_2.jpg"></td>
-                <td><img src="https://psmedia.playstation.com/is/image/psmedia/infamous-second-son-listing-thumb-03-ps4-us?$Icon$"></td>
+                <td><img id= "img7" src="https://psmedia.playstation.com/is/image/psmedia/minecraft-large-hero-03-ps4-ps3-psv-us-15aug14?$Icon$"></td>
+                <td><img id= "img8" src="https://atthebuzzerpodcast.files.wordpress.com/2013/03/bioshock_infinite_2.jpg"></td>
+                <td><img id= "img9" src="https://psmedia.playstation.com/is/image/psmedia/infamous-second-son-listing-thumb-03-ps4-us?$Icon$"></td>
             </tr>
             <tr>
-                <td class = "description" valign="top">Description 7</td>
-                <td class="description" valign="top">Description 8</td>
-                <td class="description" valign="top">Description 9</td>
+                <td class="description" id = "text7" valign="top"><p>Description 7</p><div align="right"><button>Change the Text</button></div></td>
+                <td class="description" id = "text8" valign="top"><p>Description 8</p><div align="right"><button>Change the Text</button></div></td>
+                <td class="description" id = "text9" valign="top"><p>Description 9</p><div align="right"><button>Change the Text</button></div></td>
             </tr>
         </table>
     </div>
 </div>
 </body>
 
-<!--158 is the limit ok!-->
+<!--50 is the limit ok!-->
 </html>
