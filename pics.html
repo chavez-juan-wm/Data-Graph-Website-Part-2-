@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="picsStyles.css">
+    <script src="jquery.js"></script>
+    <script src="picsScripts.js"></script>
+</head>
+
+<body>
+<div id = header>
+    <h2>Image Gallery</h2>
+</div>
+
+<div id = container>
+    <div id = navigator>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gameViolence.html"> Games and Violence</a></li>
+            <li><a href="gameEducation.html">Education</a></li>
+            <li><a href="TicTacToe.html">Tic Tac Toe</a></li>
+            <li><a href="pics.html">Image Gallery</a></li>
+            <li><a href="sources.html">Sources</a></li>
+        </ul>
+    </div>
+
+    <div id = bodyText align="center">
+        <table>
+            <tr>
+                <td><img id= "img1" src="http://gazettereview.com/wp-content/uploads/2015/09/Fallout-41.jpg"></td>
+                <td><img id= "img2" src="http://cdn2.bigcommerce.com/server100/y7xbit5/product_images/uploaded_images/destiny-gh-website-banner.jpg?t=1409897361"></td>
+                <td><img id= "img3" src="http://blogs-images.forbes.com/insertcoin/files/2014/03/the-last-of-us3.jpg"></td>
+            </tr>
+            <tr>
+                <td class="description" valign="top"><div id = "text1"><p>Fallout 4, my most anticipated game! Can't wait to play this game!</p> <div align="right"><button onclick="changeText('text1')">Change the Text</button></div></div></td>
+                <td class="description" valign="top"><div id = "text2"><p>Destiny! The game I can't stop playing! It needs more dlc!</p> <div align="right"><button onclick="changeText('text2')">Change the Text</button></div></div></td>
+                <td class="description" valign="top"><div id = "text3"><p>The Last of Us is my favorite game of all time! Good job Naughty Dog!</p> <div align="right"><button onclick="changeText('text3')">Change the Text</button></div></div></td>
+            </tr>
+            <tr>
+                <td><img id= "img4" src="http://i.ytimg.com/vi/CBZrJMD98Es/maxresdefault.jpg"></td>
+                <td><img id= "img5" src="http://cdn1-www.craveonline.com/assets/uploads/gallery/star-wars-battlefront-everything-we-know-so-far/bfbox.jpg"></td>
+                <td><img id= "img6" src="http://i.ytimg.com/vi/G203e1HhixY/maxresdefault.jpg"></td>
+            </tr>
+            <tr>
+                <td class="description" valign="top"><div id = "text4"><p>Uncharted 4 is going to be beautiful! Naughty Dog rocks!</p> <div align="right"><button onclick="changeText('text4')">Change the Text</button></div></div></td>
+                <td class="description" valign="top"><div id = "text5"><p>The Battlefront beta was a lot of fun to play! Still has many bugs to fix though!</p> <div align="right"><button onclick="changeText('text5')">Change the Text</button></div></div></td>
+                <td class="description" valign="top"><div id = "text6"><p>Bloodborne is fast-paced and a ton of fun with friends! The boss fights are crazy!</p> <div align="right"><button onclick="changeText('text6')">Change the Text</button></div></div></td>
+            </tr>
+            <tr>
+                <td><img id= "img7" src="https://psmedia.playstation.com/is/image/psmedia/minecraft-large-hero-03-ps4-ps3-psv-us-15aug14?$Icon$"></td>
+                <td><img id= "img8" src="https://atthebuzzerpodcast.files.wordpress.com/2013/03/bioshock_infinite_2.jpg"></td>
+                <td><img id= "img9" src="https://psmedia.playstation.com/is/image/psmedia/infamous-second-son-listing-thumb-03-ps4-us?$Icon$"></td>
+            </tr>
+            <tr>
+                <td class="description" valign="top"><div id = "text7"><p>Minecraft is really peaceful and relaxing to play! Great for a stressful day!</p> <div align="right"><button onclick="changeText('text7')">Change the Text</button></div></div></td>
+                <td class="description" valign="top"><div id = "text8"><p>Bioshock Infinite has the best ending ever! Huge plot twist!</p> <div align="right"><button onclick="changeText('text8')">Change the Text</button></div></div></td>
+                <td class="description" valign="top"><div id = "text9"><p>Infamous Second Son is super fun to play and I want another game!</p> <div align="right"><button onclick="changeText('text9')">Change the Text</button></div></div></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

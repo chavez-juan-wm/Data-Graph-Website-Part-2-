@@ -6,9 +6,9 @@ function changeText(id)
 {
     var userText = prompt("Enter a new description: ");
 
-    if(userText.length > 55)
+    if(userText.length > 80)
     {
-        userText = userText.substring(0, 54);
+        userText = userText.substring(0, 79);
         alert("You put too much text! It had to be shortened.");
     }
 
